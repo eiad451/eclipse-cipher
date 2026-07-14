@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "joker-m4"
+version = "1.0.0"
+description = "𖤐 𝕰𝖈𝖑𝖎𝖕𝖘𝖊 — Multi-Layer Encryption Engine by 𝓙𝓸𝓴𝓮𝓻丨𝓜4 with 10 Top-Tier Ciphers"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "Proprietary — 𝓙𝓸𝓴𝓮𝓻丨𝓜4 : 𖤐𝕰𝖈𝖑𝖎𝖕𝖘𝖊𖤐"}
+authors = [
+    {name = "𝓙𝓸𝓴𝓮𝓻丨𝓜4 : 𖤐𝕰𝖈𝖑𝖎𝖕𝖘𝖊𖤐", email = "joker@sanctum.dev"},
+]
+keywords = [
+    "encryption", "aes", "chacha20", "serpent", "twofish",
+    "camellia", "blowfish", "cast5", "tripledes", "sm4", "seed",
+    "cryptography", "security", "joker", "𝓙𝓸𝓴𝓮𝓻丨𝓜4",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: Other/Proprietary License",
+    "Operating System :: OS Independent",
+    "Topic :: Security :: Cryptography",
+    "Intended Audience :: Developers",
+]
+dependencies = [
+    "pycryptodome>=3.15.0",
+    "cryptography>=41.0.0",
+]
+
+[project.urls]
+Telegram = "https://t.me/VT_YC"
+Source = "https://github.com/eiad451/eclipse-cipher"
+
+[tool.setuptools.packages.find]
+include = ["joker_m4*"]
